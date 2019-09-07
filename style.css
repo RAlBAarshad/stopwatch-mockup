@@ -1,0 +1,86 @@
+                    body {
+                        font-size: 20px;
+                        display: flex;
+                        justify-content: center;
+                        padding: 15% 0%;
+                        height: 100%;
+                        background-image: url("images/white.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    
+                    div {
+                        border: solid gray 2px;
+                        border-radius: 20px 20px;
+                        background-color: #8080801f;
+                        padding: 20px;
+                        display: inline-block;
+                        box-shadow: 0px 0px 20px 20px #888888f2;
+                        position: absolute;
+                    }
+                    
+                    button {
+                        border: solid black 2px;
+                        border-radius: 47% 47%;
+                        padding: 12px;
+                        color: black;
+                        font-size: 17px;
+                        box-shadow: 0px 0px 0px 4px white;
+                        margin: 10px;
+                    }
+                    
+                    button:hover {
+                        cursor: pointer;
+                        color: #5648a5;
+                        box-shadow: 0px 0px 0px 4px #5648a55c;
+                    }
+                    
+                    button:focus {
+                        overflow: hidden;
+                        outline: 0cm;
+                    }
+                    
+                    main {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: solid black 2px;
+                        padding: 10px;
+                        font-size: 3em;
+                        margin: 10px;
+                        box-shadow: 0px 0px 0px 10px white;
+                    }
+                    
+                    main:hover {
+                        border: solid #5648a5 2px;
+                    }
+                    
+                    section {
+                        margin: 30px 0px 0px 0px;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    @media screen and (max-width: 900px) {
+                        body {
+                            font-size: 15px;
+                        }
+                        button {
+                            padding: 10px 20px
+                        }
+                    }
+                    
+                    @media screen and (max-width: 600px) {
+                        body {
+                            font-size: 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                            padding: 20px 10px;
+                            flex-direction: column;
+                        }
+                        button {
+                            font-size: 12px;
+                            margin: 5px;
+                        }
+                    }
